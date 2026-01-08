@@ -19,7 +19,7 @@
 .banner1,
 .banner2,
 .banner3 {
-    background-image: url('/images/banner/banner1.png');
+    background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -28,13 +28,13 @@
 }
 
 .banner2 {
-    background-image: url('/images/banner/banner2.png');
+    background-image: url('../images/banner/banner2.png');
     margin: 50px 0;
     color: #FFFFFF;
 }
 
 .banner3 {
-    background-image: url('/images/banner/banner3.png');
+    background-image: url('../images/banner/banner3.png');
     padding: 250px 0 320px 0;
     color: #FFFFFF;
 }
