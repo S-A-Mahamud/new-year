@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Google Fonts */
+.font-work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.container {
+    width: 70%;
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* Banner Styles */
+.banner1,
+.banner2,
+.banner3 {
+    background-image: url('/images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 216px 0 216px 0;
+}
+
+.banner2 {
+    background-image: url('/images/banner/banner2.png');
+    margin: 50px 0;
+    color: #FFFFFF;
+}
+
+.banner3 {
+    background-image: url('/images/banner/banner3.png');
+    padding: 250px 0 320px 0;
+    color: #FFFFFF;
+}
+
+.banner-container {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.banner-container h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    max-width: 525px;
+}
+
+.banner-container p {
+    margin: 24px 0 32px;
+    max-width: 494px;
+}
+
+.banner-container button {
+    background-color: #FF6E40;
+    color: #FFFFFF;
+    font-weight: 700;
+    border: none;
+    padding: 20px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Failure Section styles */
+.failure-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+    margin: 130px auto;
+}
+
+.failure-container img {
+    max-width: 569px;
+}
+
+.failure-text {
+    margin-top: 180px;
+}
+
+.failure-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.tick-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.tick {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+/* Plans Section Styles */
+.plans-section {
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+.plans-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.plan-box h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 24px 0 16px;
+}
+
+.plan-box p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Positive Mindset Section Styles */
+.positive-mindset-container {
+    background-image: linear-gradient(to right,
+            rgba(0, 84, 166, 0.85),
+            rgba(0, 84, 166, 0.2)),
+        url('/images/watch.png');
+    margin-bottom: 130px;
+    border-radius: 8px;
+}
+
+.positive-mindset {
+    padding: 59px 0 59px 64px;
+}
+
+.positive-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.positive-mindset button {
+    background-color: #FFFFFF;
+    color: #005FAC;
+    font-weight: 700;
+    border: none;
+    padding: 21px 36px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+/* Footer section styles */
+
+footer {
+    background-color: #000000;
+}
+
+.footer-section {
+    padding: 130px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 331px;
+}
+
+/* Feature container styles */
+.feature-container {
+    color: #FFFFFF;
+}
+
+.feature-heading,
+.subscribe-container h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.feature-subheading {
+    margin: 16px 0 24px;
+    line-height: 25px;
+    max-width: 465px;
+}
+
+.feature-phone {
+    margin: 16px 0 32px
+}
+
+.social-container {
+    display: flex;
+    gap: 18px;
+}
+
+/* Subscribe container styles */
+.subscribe-container,
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #FFFFFF;
+}
+
+.subscribe-container input {
+    background-color: transparent;
+    color: white;
+    padding: 15px 20px;
+    width: 100%;
+    max-width: 400px;
+    margin: 31px 0 16px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.subscribe-container input::placeholder {
+    color: white;
+    font-size: 18px;
+    opacity: 1;
+}
+
+.subscribe-container button {
+    background-color: #005FAC;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    padding: 20px 36px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.copyright p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
